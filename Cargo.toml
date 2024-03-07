@@ -1,0 +1,13 @@
+[package]
+name = "rust-learning"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+http = "0.2.9"
+reqwest = { version = "0.11.22", features = ["blocking", "json"] }
+tokio = { version = "1.33.0", features = ["full"] }
+time = "0.3.34"
+regex = "1.10.3"
